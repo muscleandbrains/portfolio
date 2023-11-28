@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('metaverse-background.jpg');
+    /* Replace with your chosen image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    width: 350px;
+    padding: 40px;
+    background-color: rgba(10, 25, 47, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    /* Center align the content */
+}
+
+.login-box {
+    margin: 15px 0;
+}
+
+.login-box h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #4fd1c5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.login-box img {
+    width: 120px;
+    margin: 0 auto 20px;
+    /* Center the image and add margin */
+    display: block;
+    /* Makes it a block element to enable margin auto */
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0d253f;
+    color: #ddd;
+    border: 1px solid #4fd1c5;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4fd1c5;
+    color: #0d253f;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+    background-color: #39bec9;
+}
